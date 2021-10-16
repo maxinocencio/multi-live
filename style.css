@@ -1,0 +1,95 @@
+@import url('http://fonts.cdnfonts.com/css/poppins');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(76,201,240);
+    background: linear-gradient(90deg, rgba(76,201,240,1) 0%, rgba(94,145,248,1) 100%);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+    width: 350px;
+    padding: 0 10px;
+    height: 40px;
+    border: 2px solid #E0E3EB;
+    border-radius: 20px;
+    margin: 10px 0 0;
+}
+
+input:focus {
+    border: 2px solid #5E91F8;
+    outline: none;
+}
+
+h3, h2 {
+    margin: 0;
+    color: rgb(32, 202, 253);
+}
+
+h2 {
+    margin: 0 0 10px;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1em;
+    width: 374px;
+    height: 40px;
+    border: none;
+    background: rgb(94,145,248);
+    background: linear-gradient(90deg, rgba(94,145,248,1) 0%, rgba(76,201,240,1) 100%);
+    border-radius: 10px;
+    margin: 10px 0 0;
+    cursor: pointer;
+}
+
+#streams {
+    display: flex;
+}
+
+.stream h2 {
+    color: #fff;
+    text-align: center;
+}
+
+h4 {
+    margin: 10px 0 0 10px ;
+    font-size: 0.8em;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    width: 374px;
+    color: rgb(4, 196, 255);
+}
